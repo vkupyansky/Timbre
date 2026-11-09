@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!NOTICE
+!licenses/
+!licenses/FISH-AUDIO-RESEARCH-LICENSE.md
+!src/
+!src/**
+src/**/__pycache__/

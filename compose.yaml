@@ -1,0 +1,46 @@
+name: shift
+services:
+  app:
+    build: .
+    image: shift:0.1.0
+    init: true
+    user: "501:20"
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 96
+    mem_limit: 768m
+    cpus: 2
+    stop_grace_period: 20s
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - type: bind
+        source: ./.env
+        target: /config/.env
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./.shift/secrets
+        target: /state/secrets
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./.shift/data
+        target: /state/data
+        bind:
+          create_host_path: false
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8765/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 6
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

@@ -1,0 +1,3 @@
+from torch import Tensor
+
+def resample(waveform: Tensor, orig_freq: int, new_freq: int) -> Tensor: ...

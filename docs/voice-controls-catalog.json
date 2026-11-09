@@ -1,0 +1,688 @@
+[
+  {
+    "id": "c00",
+    "category": "emotion",
+    "tag": "happy",
+    "name": "Happy",
+    "description": "Cheerful, upbeat tone"
+  },
+  {
+    "id": "c01",
+    "category": "emotion",
+    "tag": "sad",
+    "name": "Sad",
+    "description": "Melancholic, downcast"
+  },
+  {
+    "id": "c02",
+    "category": "emotion",
+    "tag": "angry",
+    "name": "Angry",
+    "description": "Frustrated, aggressive"
+  },
+  {
+    "id": "c03",
+    "category": "emotion",
+    "tag": "excited",
+    "name": "Excited",
+    "description": "Energetic, enthusiastic"
+  },
+  {
+    "id": "c04",
+    "category": "emotion",
+    "tag": "calm",
+    "name": "Calm",
+    "description": "Peaceful, relaxed"
+  },
+  {
+    "id": "c05",
+    "category": "emotion",
+    "tag": "nervous",
+    "name": "Nervous",
+    "description": "Anxious, uncertain"
+  },
+  {
+    "id": "c06",
+    "category": "emotion",
+    "tag": "confident",
+    "name": "Confident",
+    "description": "Assertive, self-assured"
+  },
+  {
+    "id": "c07",
+    "category": "emotion",
+    "tag": "surprised",
+    "name": "Surprised",
+    "description": "Shocked, amazed"
+  },
+  {
+    "id": "c08",
+    "category": "emotion",
+    "tag": "satisfied",
+    "name": "Satisfied",
+    "description": "Content, pleased"
+  },
+  {
+    "id": "c09",
+    "category": "emotion",
+    "tag": "delighted",
+    "name": "Delighted",
+    "description": "Very pleased, joyful"
+  },
+  {
+    "id": "c10",
+    "category": "emotion",
+    "tag": "scared",
+    "name": "Scared",
+    "description": "Frightened, fearful"
+  },
+  {
+    "id": "c11",
+    "category": "emotion",
+    "tag": "worried",
+    "name": "Worried",
+    "description": "Concerned, troubled"
+  },
+  {
+    "id": "c12",
+    "category": "emotion",
+    "tag": "upset",
+    "name": "Upset",
+    "description": "Disturbed, distressed"
+  },
+  {
+    "id": "c13",
+    "category": "emotion",
+    "tag": "frustrated",
+    "name": "Frustrated",
+    "description": "Annoyed, exasperated"
+  },
+  {
+    "id": "c14",
+    "category": "emotion",
+    "tag": "depressed",
+    "name": "Depressed",
+    "description": "Very sad, hopeless"
+  },
+  {
+    "id": "c15",
+    "category": "emotion",
+    "tag": "empathetic",
+    "name": "Empathetic",
+    "description": "Understanding, caring"
+  },
+  {
+    "id": "c16",
+    "category": "emotion",
+    "tag": "embarrassed",
+    "name": "Embarrassed",
+    "description": "Ashamed, awkward"
+  },
+  {
+    "id": "c17",
+    "category": "emotion",
+    "tag": "disgusted",
+    "name": "Disgusted",
+    "description": "Repelled, revolted"
+  },
+  {
+    "id": "c18",
+    "category": "emotion",
+    "tag": "moved",
+    "name": "Moved",
+    "description": "Emotionally touched"
+  },
+  {
+    "id": "c19",
+    "category": "emotion",
+    "tag": "proud",
+    "name": "Proud",
+    "description": "Accomplished, satisfied"
+  },
+  {
+    "id": "c20",
+    "category": "emotion",
+    "tag": "relaxed",
+    "name": "Relaxed",
+    "description": "At ease, casual"
+  },
+  {
+    "id": "c21",
+    "category": "emotion",
+    "tag": "grateful",
+    "name": "Grateful",
+    "description": "Thankful, appreciative"
+  },
+  {
+    "id": "c22",
+    "category": "emotion",
+    "tag": "curious",
+    "name": "Curious",
+    "description": "Inquisitive, interested"
+  },
+  {
+    "id": "c23",
+    "category": "emotion",
+    "tag": "sarcastic",
+    "name": "Sarcastic",
+    "description": "Ironic, mocking"
+  },
+  {
+    "id": "c24",
+    "category": "emotion",
+    "tag": "disdainful",
+    "name": "Disdainful",
+    "description": "Contemptuous, scornful"
+  },
+  {
+    "id": "c25",
+    "category": "emotion",
+    "tag": "unhappy",
+    "name": "Unhappy",
+    "description": "Discontent, dissatisfied"
+  },
+  {
+    "id": "c26",
+    "category": "emotion",
+    "tag": "anxious",
+    "name": "Anxious",
+    "description": "Very worried, uneasy"
+  },
+  {
+    "id": "c27",
+    "category": "emotion",
+    "tag": "hysterical",
+    "name": "Hysterical",
+    "description": "Uncontrollably emotional"
+  },
+  {
+    "id": "c28",
+    "category": "emotion",
+    "tag": "indifferent",
+    "name": "Indifferent",
+    "description": "Uncaring, neutral"
+  },
+  {
+    "id": "c29",
+    "category": "emotion",
+    "tag": "uncertain",
+    "name": "Uncertain",
+    "description": "Doubtful, unsure"
+  },
+  {
+    "id": "c30",
+    "category": "emotion",
+    "tag": "doubtful",
+    "name": "Doubtful",
+    "description": "Skeptical, questioning"
+  },
+  {
+    "id": "c31",
+    "category": "emotion",
+    "tag": "confused",
+    "name": "Confused",
+    "description": "Puzzled, perplexed"
+  },
+  {
+    "id": "c32",
+    "category": "emotion",
+    "tag": "disappointed",
+    "name": "Disappointed",
+    "description": "Let down, dissatisfied"
+  },
+  {
+    "id": "c33",
+    "category": "emotion",
+    "tag": "regretful",
+    "name": "Regretful",
+    "description": "Sorry, remorseful"
+  },
+  {
+    "id": "c34",
+    "category": "emotion",
+    "tag": "guilty",
+    "name": "Guilty",
+    "description": "Culpable, responsible"
+  },
+  {
+    "id": "c35",
+    "category": "emotion",
+    "tag": "ashamed",
+    "name": "Ashamed",
+    "description": "Deeply embarrassed"
+  },
+  {
+    "id": "c36",
+    "category": "emotion",
+    "tag": "jealous",
+    "name": "Jealous",
+    "description": "Envious, resentful"
+  },
+  {
+    "id": "c37",
+    "category": "emotion",
+    "tag": "envious",
+    "name": "Envious",
+    "description": "Wanting what others have"
+  },
+  {
+    "id": "c38",
+    "category": "emotion",
+    "tag": "hopeful",
+    "name": "Hopeful",
+    "description": "Optimistic about future"
+  },
+  {
+    "id": "c39",
+    "category": "emotion",
+    "tag": "optimistic",
+    "name": "Optimistic",
+    "description": "Positive outlook"
+  },
+  {
+    "id": "c40",
+    "category": "emotion",
+    "tag": "pessimistic",
+    "name": "Pessimistic",
+    "description": "Negative outlook"
+  },
+  {
+    "id": "c41",
+    "category": "emotion",
+    "tag": "nostalgic",
+    "name": "Nostalgic",
+    "description": "Longing for the past"
+  },
+  {
+    "id": "c42",
+    "category": "emotion",
+    "tag": "lonely",
+    "name": "Lonely",
+    "description": "Isolated, alone"
+  },
+  {
+    "id": "c43",
+    "category": "emotion",
+    "tag": "bored",
+    "name": "Bored",
+    "description": "Uninterested, weary"
+  },
+  {
+    "id": "c44",
+    "category": "emotion",
+    "tag": "contemptuous",
+    "name": "Contemptuous",
+    "description": "Showing contempt"
+  },
+  {
+    "id": "c45",
+    "category": "emotion",
+    "tag": "sympathetic",
+    "name": "Sympathetic",
+    "description": "Showing sympathy"
+  },
+  {
+    "id": "c46",
+    "category": "emotion",
+    "tag": "compassionate",
+    "name": "Compassionate",
+    "description": "Showing deep care"
+  },
+  {
+    "id": "c47",
+    "category": "emotion",
+    "tag": "determined",
+    "name": "Determined",
+    "description": "Resolved, decided"
+  },
+  {
+    "id": "c48",
+    "category": "emotion",
+    "tag": "resigned",
+    "name": "Resigned",
+    "description": "Accepting defeat"
+  },
+  {
+    "id": "c49",
+    "category": "prosody",
+    "tag": "in a hurry tone",
+    "name": "Hurried",
+    "description": "Rushed, urgent"
+  },
+  {
+    "id": "c50",
+    "category": "style",
+    "tag": "shouting",
+    "name": "Shouting",
+    "description": "Loud, calling out"
+  },
+  {
+    "id": "c51",
+    "category": "style",
+    "tag": "screaming",
+    "name": "Screaming",
+    "description": "Very loud, panicked"
+  },
+  {
+    "id": "c52",
+    "category": "style",
+    "tag": "whispering",
+    "name": "Whispering",
+    "description": "Very soft, secretive"
+  },
+  {
+    "id": "c53",
+    "category": "style",
+    "tag": "soft tone",
+    "name": "Soft",
+    "description": "Gentle, quiet"
+  },
+  {
+    "id": "c54",
+    "category": "prosody",
+    "tag": "emphasis",
+    "name": "Emphasis",
+    "description": "Stress a word/phrase"
+  },
+  {
+    "id": "c55",
+    "category": "nonverbal",
+    "tag": "laughing",
+    "name": "Laughing",
+    "description": "Full laughter"
+  },
+  {
+    "id": "c56",
+    "category": "nonverbal",
+    "tag": "chuckling",
+    "name": "Chuckling",
+    "description": "Light laugh"
+  },
+  {
+    "id": "c57",
+    "category": "nonverbal",
+    "tag": "sobbing",
+    "name": "Sobbing",
+    "description": "Crying heavily"
+  },
+  {
+    "id": "c58",
+    "category": "nonverbal",
+    "tag": "crying loudly",
+    "name": "Crying Loudly",
+    "description": "Intense crying"
+  },
+  {
+    "id": "c59",
+    "category": "nonverbal",
+    "tag": "sighing",
+    "name": "Sighing",
+    "description": "Exhale of relief/frustration"
+  },
+  {
+    "id": "c60",
+    "category": "nonverbal",
+    "tag": "groaning",
+    "name": "Groaning",
+    "description": "Sound of frustration"
+  },
+  {
+    "id": "c61",
+    "category": "nonverbal",
+    "tag": "panting",
+    "name": "Panting",
+    "description": "Out of breath"
+  },
+  {
+    "id": "c62",
+    "category": "nonverbal",
+    "tag": "gasping",
+    "name": "Gasping",
+    "description": "Sharp intake of breath"
+  },
+  {
+    "id": "c63",
+    "category": "nonverbal",
+    "tag": "yawning",
+    "name": "Yawning",
+    "description": "Tired sound"
+  },
+  {
+    "id": "c64",
+    "category": "nonverbal",
+    "tag": "snoring",
+    "name": "Snoring",
+    "description": "Sleep sound"
+  },
+  {
+    "id": "c65",
+    "category": "nonverbal",
+    "tag": "clear throat",
+    "name": "Clear Throat",
+    "description": "Throat-clearing sound"
+  },
+  {
+    "id": "c66",
+    "category": "nonverbal",
+    "tag": "audience laughing",
+    "name": "Audience Laughter",
+    "description": "Crowd laughing sound"
+  },
+  {
+    "id": "c67",
+    "category": "nonverbal",
+    "tag": "background laughter",
+    "name": "Background Laughter",
+    "description": "Ambient laughter"
+  },
+  {
+    "id": "c68",
+    "category": "nonverbal",
+    "tag": "crowd laughing",
+    "name": "Crowd Laughter",
+    "description": "Large group laughing"
+  },
+  {
+    "id": "c69",
+    "category": "prosody",
+    "tag": "break",
+    "name": "Short Pause",
+    "description": "Brief pause in speech"
+  },
+  {
+    "id": "c70",
+    "category": "prosody",
+    "tag": "long-break",
+    "name": "Long Pause",
+    "description": "Extended pause in speech"
+  },
+  {
+    "id": "c71",
+    "category": "style",
+    "tag": "whisper in small voice",
+    "name": "Тихий шёпот",
+    "description": "Просит особенно тихую шёпотную подачу."
+  },
+  {
+    "id": "c72",
+    "category": "style",
+    "tag": "professional broadcast tone",
+    "name": "Диктор",
+    "description": "Просит профессиональную дикторскую подачу."
+  },
+  {
+    "id": "c73",
+    "category": "prosody",
+    "tag": "pitch up",
+    "name": "Выше голос",
+    "description": "Просит модель повысить высоту голоса; точные полутона не задаются."
+  },
+  {
+    "id": "c74",
+    "category": "prosody",
+    "tag": "pause",
+    "name": "Пауза",
+    "description": "Просит паузу в начале озвучки; точная длительность не задаётся."
+  },
+  {
+    "id": "c75",
+    "category": "nonverbal",
+    "tag": "inhale",
+    "name": "Вдох",
+    "description": "Просит слышимый вдох."
+  },
+  {
+    "id": "c76",
+    "category": "nonverbal",
+    "tag": "chuckle",
+    "name": "Усмешка",
+    "description": "Просит короткий смешок."
+  },
+  {
+    "id": "c77",
+    "category": "nonverbal",
+    "tag": "tsk",
+    "name": "Цоканье",
+    "description": "Просит цоканье языком."
+  },
+  {
+    "id": "c78",
+    "category": "style",
+    "tag": "singing",
+    "name": "Пение",
+    "description": "Просит пропевать текст; мелодия не задаётся."
+  },
+  {
+    "id": "c79",
+    "category": "style",
+    "tag": "laughing tone",
+    "name": "С улыбкой",
+    "description": "Просит смеющуюся манеру речи."
+  },
+  {
+    "id": "c80",
+    "category": "style",
+    "tag": "interrupting",
+    "name": "Перебивая",
+    "description": "Просит подачу человека, перебивающего собеседника."
+  },
+  {
+    "id": "c81",
+    "category": "style",
+    "tag": "excited tone",
+    "name": "Воодушевлённо",
+    "description": "Просит оживлённую манеру речи."
+  },
+  {
+    "id": "c82",
+    "category": "prosody",
+    "tag": "volume up",
+    "name": "Громче",
+    "description": "Просит модель говорить громче, без точного уровня в децибелах."
+  },
+  {
+    "id": "c83",
+    "category": "nonverbal",
+    "tag": "echo",
+    "name": "Эхо",
+    "description": "Просит модель добавить эффект эха."
+  },
+  {
+    "id": "c84",
+    "category": "prosody",
+    "tag": "low volume",
+    "name": "Тихо",
+    "description": "Просит пониженную громкость речи."
+  },
+  {
+    "id": "c85",
+    "category": "nonverbal",
+    "tag": "sigh",
+    "name": "Вздох",
+    "description": "Просит слышимый вздох."
+  },
+  {
+    "id": "c86",
+    "category": "prosody",
+    "tag": "low voice",
+    "name": "Низкий голос",
+    "description": "Просит низкую подачу; может изменить сходство с образцом."
+  },
+  {
+    "id": "c87",
+    "category": "style",
+    "tag": "whisper",
+    "name": "Шёпот",
+    "description": "Просит шёпотную подачу."
+  },
+  {
+    "id": "c88",
+    "category": "prosody",
+    "tag": "loud",
+    "name": "Громко",
+    "description": "Просит громкую подачу."
+  },
+  {
+    "id": "c89",
+    "category": "prosody",
+    "tag": "short pause",
+    "name": "Короткая пауза",
+    "description": "Просит короткую паузу в начале озвучки."
+  },
+  {
+    "id": "c90",
+    "category": "nonverbal",
+    "tag": "exhale",
+    "name": "Выдох",
+    "description": "Просит слышимый выдох."
+  },
+  {
+    "id": "c91",
+    "category": "emotion",
+    "tag": "delight",
+    "name": "Восторг",
+    "description": "Просит радостную, восторженную подачу."
+  },
+  {
+    "id": "c92",
+    "category": "nonverbal",
+    "tag": "audience laughter",
+    "name": "Смех публики",
+    "description": "Просит звук смеющейся аудитории."
+  },
+  {
+    "id": "c93",
+    "category": "style",
+    "tag": "with strong accent",
+    "name": "Сильный акцент",
+    "description": "Просит выраженный акцент; конкретный акцент задаётся своей инструкцией."
+  },
+  {
+    "id": "c94",
+    "category": "prosody",
+    "tag": "volume down",
+    "name": "Тише",
+    "description": "Просит модель говорить тише, без точного уровня в децибелах."
+  },
+  {
+    "id": "c95",
+    "category": "nonverbal",
+    "tag": "clearing throat",
+    "name": "Прочистить горло",
+    "description": "Просит звук прочищения горла."
+  },
+  {
+    "id": "c96",
+    "category": "nonverbal",
+    "tag": "moaning",
+    "name": "Стон",
+    "description": "Просит стонущий звук."
+  },
+  {
+    "id": "c97",
+    "category": "emotion",
+    "tag": "shocked",
+    "name": "Потрясение",
+    "description": "Просит потрясённую подачу."
+  }
+]

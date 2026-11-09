@@ -1,0 +1,53 @@
+[project]
+name = "shift-models"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mlx-audio==0.5.3",
+  "mlx==0.32.2",
+  "torch==2.14.0",
+  "torchaudio==2.11.0",
+  "transformers==5.16.1",
+  "huggingface-hub==1.30.0",
+  "soundfile==0.14.0",
+  "pydantic==2.13.5",
+  "librosa==0.11.0",
+  "numpy==2.2.6",
+  "munch==4.0.0",
+  "einops==0.8.2",
+  "PyYAML==6.0.3",
+  "safetensors==0.8.0",
+  "matplotlib==3.10.8",
+]
+
+[dependency-groups]
+dev = [
+  "pytest==9.1.1",
+  "ruff==0.16.6",
+  "mypy==2.3.1",
+  "types-PyYAML==6.0.12.20260906",
+  "pip-audit==2.10.1",
+]
+
+[tool.uv]
+package = false
+environments = ["sys_platform == 'darwin' and platform_machine == 'arm64'"]
+required-environments = ["sys_platform == 'darwin' and platform_machine == 'arm64'"]
+
+[tool.ruff]
+target-version = "py312"
+extend-exclude = [".venv", "vendor"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["check.py", "tts/request.py", "tts/download.py", "tts/run.py", "tts/runtime.py", "tts/fish_runtime.py", "tts/fish_codec.py", "tts/style_context.py", "profile/run.py", "profile/download.py", "asr/run.py"]
+mypy_path = "$MYPY_CONFIG_FILE_DIR/tts/stubs"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "tts/tests", "profile/tests", "asr/tests"]
+pythonpath = [".."]
+filterwarnings = ["error"]

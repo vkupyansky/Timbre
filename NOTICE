@@ -1,0 +1,13 @@
+Built with Fish Audio.
+
+This model is licensed under the Fish Audio Research License, Copyright © 39 AI, INC. All Rights Reserved.
+
+Timbre использует Fish S2 Pro BF16 через mlx-audio. Веса в репозиторий не входят.
+Копия лицензии модели: licenses/FISH-AUDIO-RESEARCH-LICENSE.md.
+Источник и контрольные суммы: models/tts.lock.json.
+
+Веса Fish не переобучаются. Локальная интеграция ограничивает память при
+каузальном декодировании звука и использует нативный контекст для подачи речи.
+
+Зависимости устанавливаются отдельно по uv.lock и ml/uv.lock и сохраняют
+собственные лицензии. Эта лицензия модели не лицензирует исходники Timbre.
