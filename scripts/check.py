@@ -39,7 +39,7 @@ def main() -> None:
             env={key: value for key, value in os.environ.items() if key != "VIRTUAL_ENV"}
             | {"UV_PYTHON_DOWNLOADS": "never"},
         )
-    print("Проверки пройдены; реальные ML/Telegram сценарии отмечены отдельно в docs/STATUS.md.")
+    print("Проверки пройдены; реальные ML/Telegram сценарии отмечены отдельно в STATUS.md.")
 
 
 if __name__ == "__main__":
